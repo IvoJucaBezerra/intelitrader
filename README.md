@@ -30,13 +30,16 @@ A intelitrader foi contratada para traduzir uma mensagem capturada na rede de um
   * Números binários e hexadecimais
 * Você saberá se conseguiu descriptografar a mensagem se ela for legível e em inglês. Pois, qualquer bit errado, você terá uma mensagem cheia de símbolos.
 
-# Resolução:
+# Resolução: 
+
+  * Link para o dotnetfiddle : https://dotnetfiddle.net/9JomGC
 
   * Código em Csharp:
+````
 
     using System;
-public class Program
-{
+    public class Program
+    {
     public static void Main()
     {
         string mensagem = "10010110 11110111 01010110 00000001 00010111 00100110 01010111 00000001 " +
@@ -81,5 +84,7 @@ public class Program
         return BinarioParaTexto(byteString);
     }
 }
+
+````
 
   
